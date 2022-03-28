@@ -1,0 +1,23 @@
+{
+  "name": "basic-server",
+  "version": "1.0.0",
+  "description": "To demonstrate OAuth2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "smart": "node -r dotenv/config server.js dotenv_config_path=../config/env dotenv_config_debug=true",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "OAuth2",
+    "server"
+  ],
+  "author": "Jussi Opas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "google-auth-library": "^7.14.0"
+  }
+}
