@@ -8,12 +8,19 @@ cd basic-server
 npm install
 ```
 
-If you have defined the needed environement variables, type
+This server does not work without envuronment variables.
+Environment variables can be defined in varius ways.
+In root folder into .env file, or into the file ../config/env
+For instance, when they have been defined in config ./foleder then type
 ```bash
 source config/.env
 ```
 
 To start, type
+```bash
+npm start
+```
+or
 ```bash
 node server.js
 ```
